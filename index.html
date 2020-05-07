@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape 8</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+            <div class="lock">
+                <div class="top-locked try1">
+                    <p class="message try1">Locked</p>
+                </div>                    
+                <div class="inner-lock">
+                    <div class="letter-lock">
+                        <button class="button-arrow btnDown" value="btnDown" name="l1l1">&#8595;</button>
+                        <span class="l1l1 digit" name="l1l1">A</span>                    
+                        <button class="button-arrow btnUp" value="btnUp" name="l1l1">&#8593;</button>
+                    </div>
+                    <div class="letter-lock">                 
+                        <button class="button-arrow btnDown" value="btnDown" name="l1l2">&#8595;</button>
+                        <span class="l1l2 digit" name="l1l2">A</span>
+                        <button class="button-arrow btnUp" value="btnUp" name="l1l2">&#8593;</button>
+                    </div>
+                    <div class="letter-lock">
+                        <button class="button-arrow btnDown" value="btnDown" name="l1l3">&#8595;</button>
+                        <span class="l1l3 digit" name="l1l3">A</span>                    
+                        <button class="button-arrow btnUp" value="btnUp" name="l1l3">&#8593;</button>
+                    </div>
+                    <div class="letter-lock">
+                        <button class="button-arrow btnDown" value="btnDown" name="l1l4">&#8595;</button>
+                        <span class="l1l4 digit" name="l1l4">A</span>                    
+                        <button class="button-arrow btnUp" value="btnUp" name="l1l4">&#8593;</button>
+                    </div>
+                </div>
+                <button class="try btn btn-warning mt-2" id="try1" name="try1">Attempt</button>
+            </div>
+            <div class="lock">
+                <div class="top-locked try2">
+                    <p class="message try2">Locked</p>
+                </div>
+                <div class="inner-lock">
+                    <div class="num-lock">
+                        <button class="button-arrow btnDown" value="btnDown" name="l2l1">&#8595;</button>
+                        <span class="l2l1 digit" name="l2l1">0</span>                    
+                        <button class="button-arrow btnUp" value="btnUp" name="l2l1">&#8593;</button>
+                    </div>
+                    <div class="num-lock">
+                        <button class="button-arrow btnDown" value="btnDown" name="l2l2">&#8595;</button>
+                        <span class="l2l2 digit" name="l2l2">0</span>                    
+                        <button class="button-arrow btnUp" value="btnUp" name="l2l2">&#8593;</button>
+                    </div>
+                    <div class="num-lock">
+                        <button class="button-arrow btnDown" value="btnDown" name="l2l3">&#8595;</button>
+                        <span class="l2l3 digit" name="l2l3">0</span>                    
+                        <button class="button-arrow btnUp" value="btnUp" name="l2l3">&#8593;</button>
+                    </div>
+                    <div class="num-lock">
+                        <button class="button-arrow btnDown" value="btnDown" name="l2l4">&#8595;</button>
+                        <span class="l2l4 digit" name="l2l4">0</span>                    
+                        <button class="button-arrow btnUp" value="btnUp" name="l2l4">&#8593;</button>
+                    </div>
+                </div>
+                <button class="try btn btn-warning mt-2" id="try2" name="try2">Attempt</button>
+            </div>
+            <div class="lock">
+                <div class="top-locked try3">
+                    <p class="message try3">Locked</p>
+                </div>
+                <div class="inner-lock">
+                    <div class="letter-lock">
+                        <button class="button-arrow btnDown" value="btnDown" name="l3l1">&#8595;</button>
+                        <span class="l3l1 digit" name="l3l1">A</span>                    
+                        <button class="button-arrow btnUp" value="btnUp" name="l3l1">&#8593;</button>
+                    </div>
+                    <div class="letter-lock">
+                        <button class="button-arrow btnDown" value="btnDown" name="l3l2">&#8595;</button>
+                        <span class="l3l2 digit" name="l3l2">A</span>                    
+                        <button class="button-arrow btnUp" value="btnUp" name="l3l2">&#8593;</button>
+                    </div>
+                    <div class="letter-lock">
+                        <button class="button-arrow btnDown" value="btnDown" name="l3l3">&#8595;</button>
+                        <span class="l3l3 digit" name="l3l3">A</span>                    
+                        <button class="button-arrow btnUp" value="btnUp" name="l3l3">&#8593;</button>
+                    </div>
+                    <div class="letter-lock">
+                        <button class="button-arrow btnDown" value="btnDown" name="l3l4">&#8595;</button>
+                        <span class="l3l4 digit" name="l3l4">A</span>
+                        <button class="button-arrow btnUp" value="btnUp" name="l3l4">&#8593;</button>
+                    </div>
+                </div>
+                <button class="try btn btn-warning mt-2" id="try3" name="try3">Attempt</button>
+            </div>
+    </div>
+
+    <hr />
+
+    <div class="accordion">     
+            <a class="clue-num" href="#popup1" class="thumb-link"> <img src="img/thumb1.png" alt="Clue 1" class="thumbs"> </a>
+            <a class="clue-num" href="#popup2" class="thumb-link"> <img src="img/thumb2.png" alt="Clue 2" class="thumbs"> </a>
+            <a class="clue-num" href="#popup3" class="thumb-link"> <img src="img/thumb3.png" alt="Clue 3" class="thumbs"> </a>       
+    </div>
+
+    <div class="clues">
+
+        <div class="popup" id="popup1">
+            <div class="popup__content" >
+                <a href="#" class="popup__close">&times;</a>
+                <div class="popup__text">
+                    <p>Unscramble the words to spell out the titles of famous books. Then take the letters from the unscrambled titles denoted by the parentheses 
+                        and unscramble those letters to spell out the hidden book title. Use the parentheses from the hidden book title to find the 4-digit code.</p>
+                    <p>HASTY EGG BATTER (6th, 13th)</p>
+                    <p>BELT OR WATCHES (2nd, 8th, 13th)</p>
+                    <p>NOTHING WITH WEED (2nd, 8th)</p>
+                    <p>COLD WALL THIEF (7th, 11th)</p>
+                    <p>XXXXXXXXX (2nd, 4th, 6th, 8th)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="popup2">
+            <div class="popup__content" >
+                <a href="#" class="popup__close">&times;</a>
+                <div class="popup__text">
+                    <p>
+                        I + MIX + DIV = ????    
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="popup3">
+            <div class="popup__content" >
+                <a href="#" class="popup__close">&times;</a>
+                <div class="popup__img">
+                    <img class="img2" src="img/clue3.png" alt="Clue 3">
+                </div>
+            </div>
+        </div>
+        
+       
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+   
+</body>
+
+</html>
