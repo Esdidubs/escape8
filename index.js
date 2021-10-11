@@ -1,7 +1,7 @@
 const passcodes = {
 	try1 : 'HHBI',
 	try2 : '1514',
-	try3 : 'HKPH'
+	try3 : 'HKPA'
 };
 
 let tries = {};
